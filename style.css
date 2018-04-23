@@ -12,6 +12,9 @@ main {
 }
 
 .years-and-months {
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
    width: 100%;
    height: 120px;
    text-align: center;
@@ -33,4 +36,13 @@ main {
 
 .red {
    color: red;
+}
+
+.btn {
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+   border-radius: 50%;
+   background-color: rgb(126, 103, 115);
+   cursor: pointer;
 }
